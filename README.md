@@ -9,8 +9,7 @@ The project is for the final case study of a __Graduated Level Course: Online Al
 The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before passing to the data compression algorithm which offers a better input structure and time-and-space performances. ([link](https://github.com/nicolaprezza/BWTIL/tree/master/tools/dB-hash) for the BWT library)
 
 ## Algorithm 
-* **Move to Front** see at:          
-https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf.py
+* **[Move to Front(MTF)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf.py)**:          moves the requested item to the front
 * **Move to Front Random** see at: https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_random.py
 * **Move by Bit** see at:               
 https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/move_by_bit.py
