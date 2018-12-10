@@ -17,6 +17,8 @@ The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before pas
 ![](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/algorithm%20demo/mbb.gif)           
 * **[Move to Front Random(MTFR)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_random.py)**:
 A variant of MTF. Instead of moving the item to the first position (index 0) in the list, it moves it to the index based on a randomly generated number which is in the range of [0, current index]. The seed that is used by the random generator is encoded in the file in order to decompress. In this project, we use 1 as the random seed.
+
+![](https://github.com/LeviIsAwesome/lossless_data_compression_zoo/blob/master/algorithm%20demo/random.gif)
   
 * **[Move to Front Reverse](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_reverse.py)**: Upon accessing an item at index i, reverse the ordering of the first i items in the list (the accessed item will be moved to the front)
 
