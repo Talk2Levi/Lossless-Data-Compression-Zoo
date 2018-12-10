@@ -22,5 +22,12 @@ A variant of MTF. Instead of moving the item to the first position (index 0) in 
 
 * **[Move to Front Reverse 2](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_reverse2.py)**: The improved version of move to front reverse. This improved algorithm reversing all the items in front of the one being accessed, it only reverses a small chunk of items. e.g. if the chunk size is defined as 10 and the index being accessed is 90, then the algorithm reverses the item in range[80, 90] (The chunk size was default set to be 10 in the algorithm).       
 
-## Presentation
-https://docs.google.com/presentation/d/18E2skjwf0Gcw-_0YD8Fz-Ma0GJLFb3v6rymqCCbUZT8/edit?usp=sharing
+## List Update Problem
+A classical algorithm in the context of Self-adjusting data structures. Given a set of items in a list where the cost of accessing an item is proportional to its distance from the head of the list.
+
+## Data Compression
+One important application of list update is in data compression. Given a data sequence, we want to do lossless compression, i.e. we should be able to recover the exact text from the compressed one.
+
+## Algorithm Performance
+The best performed data compression algorithm for the most of testing input is the simplest one which MTF in red, and a few runner-up algorithm are in brown. 
+![](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/algorithm%20demo/algorithm%20running%20persormance.png)
