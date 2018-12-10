@@ -1,4 +1,4 @@
-# lossless_compression_zoo
+# lossless_data_compression_zoo
 This repository contains a number of different lossless text compression algorithms implemented in Python.
 
 ## Main Contributors
