@@ -1,7 +1,7 @@
 # lossless_compression_zoo
 This repository contains a number of different lossless text compression algorithms implemented in Python.
 
-## Main Contributors:
+## Main Contributors
 The project is for the final case study of a __Graduated Level Course: Online Algorithm__, and the original main contributors were (names in alphabetical order):
 **[Levi Guo](https://github.com/LeviIsAwesome), [Minghao Li](https://github.com/MingoLi), [Ye Yuan](https://github.com/LongWinter).**
 
