@@ -15,11 +15,14 @@ The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before pas
 
 * **[Move by Bit(MBB)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/move_by_bit.py)**: Each item has a bit associated with it. At the beginning, all bits are 0. After an access to an item x, MBB moves it to the front if the bit of x is 1; otherwise, it keeps x at its position. In addition, after each access, the bit of the accessed item is flipped.                                   
 ![](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/algorithm%20demo/mbb.gif)           
+
 * **[Move to Front Random(MTFR)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_random.py)**:
 A variant of MTF. Instead of moving the item to the first position (index 0) in the list, it moves it to the index based on a randomly generated number which is in the range of [0, current index]. The seed that is used by the random generator is encoded in the file in order to decompress. In this project, we use 1 as the random seed.
                               
-  ![](https://github.com/LeviIsAwesome/lossless_data_compression_zoo/blob/master/algorithm%20demo/random.gif)
+![](https://github.com/LeviIsAwesome/lossless_data_compression_zoo/blob/master/algorithm%20demo/random.gif)
+
 * **[Move to Front Reverse](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_reverse.py)**: Upon accessing an item at index i, reverse the ordering of the first i items in the list (the accessed item will be moved to the front)
+![](https://github.com/LeviIsAwesome/lossless_data_compression_zoo/blob/master/algorithm%20demo/reverse.gif)
 
 * **[Move to Front Reverse 2](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf_reverse2.py)**: The improved version of move to front reverse. This improved algorithm reversing all the items in front of the one being accessed, it only reverses a small chunk of items. e.g. if the chunk size is defined as 10 and the index being accessed is 90, then the algorithm reverses the item in range[80, 90] (The chunk size was default set to be 10 in the algorithm).       
 
