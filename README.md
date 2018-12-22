@@ -6,7 +6,7 @@ The project is for the final case study of a __Graduated Level Course: Online Al
 **[Levi Guo](https://github.com/LeviIsAwesome), [Minghao Li](https://github.com/MingoLi), [Ye Yuan](https://github.com/LongWinter).**
 
 ## Dataset
-The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before passing to the data compression algorithm which offers a better input structure and time-and-space performances. ([link](https://github.com/nicolaprezza/BWTIL/tree/master/tools/dB-hash) for the BWT library)
+The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before passing to the data compression algorithm which offers a better input locality and time-and-space performances. ([link](https://github.com/nicolaprezza/BWTIL/tree/master/tools/dB-hash) for the BWT library)
 
 ## Algorithm 
 * **[Move to Front(MTF)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf.py)**: Moves the requested item to the front.
