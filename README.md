@@ -1,6 +1,5 @@
-
+# lossless_data_compression_zoo 
 [![HitCount](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/lossless-data-compression-zoo.svg)](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/lossless-data-compression-zoo)
-# lossless_data_compression_zoo
 This repository contains a number of different lossless text compression algorithms implemented in Python.
 
 ## Main Contributors
