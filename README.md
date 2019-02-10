@@ -2,7 +2,7 @@
 This repository contains a number of different lossless text compression algorithms implemented in Python.
 
 ## Main Contributors
-The project is for the final case study of a __Graduated Level Course: Online Algorithm__, and the original main contributors were:
+The project is for the final case study of a __Graduated Level Course: Online Algorithm__, and the original main contributors were  (names in alphabetical order):
 
 | [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Ehidiamen Osarhemen</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/10003885?s=400&v=4" width="100px;"/><br /><sub><b>Ye Yuan</b></sub>](https://github.com/LongWinter)  |  
 |---|---|---|
