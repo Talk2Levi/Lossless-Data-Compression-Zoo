@@ -14,6 +14,7 @@ The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before pas
 
 ## Algorithm 
 * **[Move to Front(MTF)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/mtf.py)**: Moves the requested item to the front.
+  - The Julia version of this algorithm is [here](https://github.com/LeviIsAwesome/Compression_Algorithm_With_Julia).
 
 * **[Timestamp(TS)](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/timestamp.py)**: Inserts an accessed item x in front of the first item y (from the front of the list) that precedes x in the list and was accessed at most once since the last access to x. If there is no such item y or x is accessed for the first time, Timestamp does not move the item.
 
