@@ -32,5 +32,5 @@ A classical algorithm in the context of Self-adjusting data structures. Given a 
 One important application of list update is in data compression. Given a data sequence, we want to do lossless compression, i.e. we should be able to recover the exact text from the compressed one.
 
 ## Algorithm Performance
-The best performed data compression algorithm for the most of testing input is the simplest one which MTF in red, and a few runner-up algorithms are in brown. 
+The best performed data compression algorithm for the most of testing input is the simplest one which MTF in red, i.e. the algorithm with the lowest competitive ratio, and a few runner-up algorithms are in brown. 
 ![](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/algorithm%20demo/algorithm%20running%20persormance.png)
