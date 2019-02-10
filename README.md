@@ -3,7 +3,10 @@ This repository contains a number of different lossless text compression algorit
 
 ## Main Contributors
 The project is for the final case study of a __Graduated Level Course: Online Algorithm__, and the original main contributors were (names in alphabetical order):
-**[Levi Guo](https://github.com/LeviIsAwesome), [Minghao Li](https://github.com/MingoLi), [Ye Yuan](https://github.com/LongWinter).**
+
+| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Ehidiamen Osarhemen</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/10003885?s=400&v=4" width="100px;"/><br /><sub><b>Ye Yuan</b></sub>](https://github.com/LongWinter)  |  
+|---|---|---|
+
 
 ## Dataset
 The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before passing to the data compression algorithm which offers a better input locality and time-and-space performances. ([link](https://github.com/nicolaprezza/BWTIL/tree/master/tools/dB-hash) for the BWT library)
