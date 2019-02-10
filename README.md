@@ -2,7 +2,6 @@
 This repository contains a number of different lossless text compression algorithms implemented in Python.
 
 ## Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat)](#contributors) 
-Thanks goes to the following contributors (names in alphabetical order):
 
 The project was for the final case study of a __Graduated Level Course: Online Algorithm__, and the main contributors were  (names in alphabetical order):
 
