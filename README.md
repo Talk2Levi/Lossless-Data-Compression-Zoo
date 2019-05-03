@@ -1,14 +1,6 @@
 # Lossless-Data-Compression-Zoo [![HitCount](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/lossless-data-compression-zoo.svg)](http://hits.dwyl.io/LeviIsAwesome/https://github.com/LeviIsAwesome/lossless-data-compression-zoo)
 This repository contains a number of different lossless text compression algorithms implemented in Python.
 
-## Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat)](#contributors) 
-
-The project was for the final case study of a __Graduated Level Course: Online Algorithm__, and the main contributors were  (names in alphabetical order):
-
-| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Minghao Li</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/10003885?s=400&v=4" width="100px;"/><br /><sub><b>Ye Yuan</b></sub>](https://github.com/LongWinter)  |  
-|---|---|---|
-
-
 ## Dataset
 The dataset was trasformed using Burrows-Wheeler text Transform (BWT) before passing to the data compression algorithm which offers a better input locality and time-and-space performances. ([link](https://github.com/nicolaprezza/BWTIL/tree/master/tools/dB-hash) for the BWT library)
 
@@ -39,3 +31,13 @@ One important application of list update is in data compression. Given a data se
 ## Algorithm Performance
 The best performed data compression algorithm for the most of testing input is the simplest one which MTF in red, i.e. the algorithm with the lowest competitive ratio, and a few runner-up algorithms are in brown. 
 ![](https://github.com/LeviIsAwesome/lossless_compression_zoo/blob/master/algorithm%20demo/algorithm%20running%20persormance.png)
+
+
+## Contributing ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat)](#contributors) 
+
+The project was for the final case study of a __Graduated Level Course: Online Algorithm__, and the main contributors were  (names in alphabetical order):
+
+| [<img src="https://avatars2.githubusercontent.com/u/37234961?s=400&v=4" width="100px;"/><br /><sub><b>Levi Guo</b></sub>](https://github.com/LeviIsAwesome)  | [<img src="https://avatars3.githubusercontent.com/u/28665314?s=400&v=4" width="100px;"/><br /><sub><b>Minghao Li</b></sub>](https://github.com/MingoLi)  | [<img src="https://avatars1.githubusercontent.com/u/10003885?s=400&v=4" width="100px;"/><br /><sub><b>Ye Yuan</b></sub>](https://github.com/LongWinter)  |  
+|---|---|---|
+
+
